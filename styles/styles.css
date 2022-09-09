@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F7DEFF;
+}
+                /*--HEADER--*/
+header {
+    display:flex;
+    display: grid;
+    grid-template-areas: 
+    "a nav";
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #ffffff;
+}
+header img {
+    height: 120px;
+}
+header nav ul {
+    display:flex;
+    justify-content:flex-end;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 24px;
+    padding-right: 10px;
+
+}
+header li {
+    padding-left: 10px;
+}
+                /*--SLOGAN--*/
+.titulo--inicio h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 24px;
+
+
+}
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+              /*--INDEX--*/
+.inicio img{
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.inicio div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.inicio h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    padding: 20px;
+}
+.inicio p {
+    font-size: 24px;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+            /*--SOBRE WESPU--*/
+
+.nosotros h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 60px;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    margin: 40px;
+}
+.inicios {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inicios div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: flex-end;
+
+}
+.inicios h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inicios p {
+    display: flex;
+    font-size: 24px;
+    text-align:justify;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.inicios img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+                /*--POR QUE WESPU--*/
+.porQue {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.porQue div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.porQue h1{
+    font-size: 50px;
+    justify-content: center;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    padding: 30px;
+}
+.porQue p {
+    font-size: 24px;
+
+}
+.porQue img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 10px;
+}
+                /*--MISION--*/
+.mision {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mision div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: flex-end;
+}
+.mision h1 {
+    display: flex;
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    padding: 10px;
+    
+}
+.mision p {
+    font-size: 24px;
+    align-items: center;
+    text-align: justify;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mision img {
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+}
+                /*--VISION--*/
+.vision {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.vision div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.vision h1 {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+    border-bottom: 3px solid;
+    padding: 10px;
+}
+.vision p {
+    font-size: 24px;
+    align-items: center;
+    text-align: justify;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.vision img {
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+}
+             /*--PRODUCTOS JABONES--*/
+.jabones h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-size: 34px;
+    border-bottom: 3px solid;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+
+}
+
+.jabones div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.jabones img {
+    padding: 10px;
+    border-radius: 110px;
+    transition: transform 0.4s;
+}
+.jabones img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+              /*--PRODUCTOS MASCARILLAS--*/
+
+.mascarillas h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-size: 34px;
+    border-bottom: 3px solid;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+
+}
+
+.mascarillas div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mascarillas img{
+    padding: 10px;
+    border-radius: 110px;
+    transition: transform 0.4s;
+}
+.mascarillas img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+              /*-- PRODUCTOS SALES AROMATICAS--*/
+
+.salesAromaticas h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-size: 34px;
+    border-bottom: 3px solid;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+}
+.salesAromaticas div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.salesAromaticas img {
+    padding: 10px;
+    border-radius: 110px;
+    transition: transform 0.4s;
+}
+.salesAromaticas img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+               /*--OTROS PRODUCTOS--*/
+
+.otrosProductos h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    font-size: 34px;
+    border-bottom: 3px solid;
+    background-image: linear-gradient(to left, #D9E0EC, #BFA3A3);
+    border-radius: 20px 100px;
+}
+.otrosProductos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.otrosProductos img {
+    padding: 10px;
+    border-radius: 110px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+.otrosProductos img:hover {
+    transform: scale(1.1, 1.1);
+}
+            /*--GALERIA--*/
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria img {
+   height: 300px;
+   border-radius: 15px;
+   margin: 30px 10px 30px 10px;
+   transition: transform 0.4s;
+   cursor: pointer;
+}
+.galeria img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+            /*--SECCION DE CONTACTO--*/
+.contacto {
+    display:flex ;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.contacto label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contacto input{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #D9E0EC;
+}
+.contacto select {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #D9E0EC;
+}
+.recibir--info {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.recibir--info input {
+    margin-top: 12px;
+}
+.boton--contacto {
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #D9E0EC;
+}
+.caja--mensaje {
+    width: 200px;
+    height: 100px;
+}
+
+             /*--FOOTER--*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    background-color: #D9E0EC;
+            
+ }
+
+footer img {
+    padding-left: 5px;
+    padding-right: 5px;;
+}
+
+
+
